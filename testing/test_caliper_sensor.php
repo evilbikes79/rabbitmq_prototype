@@ -1,5 +1,7 @@
 <?php
 
+	require_once 'PHPUnit/Autoload.php';
+
 	class test_caliper_sensor extends PHPUnit_Framework_TestCase
 	{
 

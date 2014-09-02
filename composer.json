@@ -1,5 +1,1 @@
-{
-    "require": {
-        "videlalvaro/php-amqplib": "v2.1.0"
-    }
-}
+{}

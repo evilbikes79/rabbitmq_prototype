@@ -1,5 +1,5 @@
 <?php
 
-    include 'test_engrade_sensor.php';
+    include 'testing/test_caliper_sensor.php';
 
 ?>
