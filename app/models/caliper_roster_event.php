@@ -3,7 +3,7 @@
 		abstract class Status{
     		const PRESENT = "added";
     		const ABSENT = "dropped";
-    		const AUDITED = "audited"
+    		const AUDITED = "audited";
 		}
 
 	class CaliperRosterEvent extends BaseModel {
