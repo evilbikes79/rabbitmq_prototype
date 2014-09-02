@@ -12,7 +12,7 @@ class AssessmentSensor extends Sensor {
     # @param assessment the assessment that has just been created
     # @return the sensor for chaining other sensor methods
     public function created($instructor, $assessment) {
-        return this;
+        return $this;
     }
 
     # When a student starts an assessment. I.e. an assessment attempt.
@@ -20,7 +20,7 @@ class AssessmentSensor extends Sensor {
     # @param assessmentAttempt the assessment attempt that has just been started
     # @return the sensor for chaining other sensor methods
     public function started($student, $assessmentAttempt) {
-        return this;
+        return $this;
     }
 
     # When a student starts an assessment. I.e. an assessment attempt, at a specific time.
@@ -29,7 +29,7 @@ class AssessmentSensor extends Sensor {
     # @param startDate the date that the assessment is started
     # @return the sensor for chaining other sensor methods
     public function started($student, $assessmentAttempt, $startDate) {
-        return this;
+        return $this;
     }
 
     # When a student submits an assessment. I.e. an assessment attempt.
@@ -38,7 +38,7 @@ class AssessmentSensor extends Sensor {
     # @param dueDate the date that the assessment was due
     # @return the sensor for chaining other sensor methods
     public function submitted($student, $assessmentAttempt, $dueDate, $timeTaken) {
-        return this;
+        return $this;
     }
 
     # When a student submits an assessment. I.e. an assessment attempt, at a specific time.
@@ -48,7 +48,7 @@ class AssessmentSensor extends Sensor {
     # @param dueDate the date that the assessment was due
     # @return the sensor for chaining other sensor methods
     public function submitted($student, $assessmentAttempt, $dueDate, $submitDate, $timeTaken) {
-        return this;
+        return $this;
     }
 
 }
