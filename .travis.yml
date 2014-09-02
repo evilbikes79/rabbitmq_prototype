@@ -1,0 +1,7 @@
+language: php
+php:
+  - 5.5
+notifications:
+  email:
+      - alexander.bromley@mheducation.com
+script: phpunit testing/test_caliper_sensor.php
